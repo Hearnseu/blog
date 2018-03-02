@@ -1,1 +1,8 @@
-theme: jekyll-theme-architect
+title: Hearnseu' blog                     #你博客的标题
+SEOTitle: Hearnseu' blog         #显示在浏览器上搜索的时候显示的标题
+header-img: img/post-bg-rwd.jpg     #显示在首页的背景图片
+email: hepeiweiseu@gmail.com    
+description: "Hearnseu' blog"              #网站介绍
+keyword: "Hearnseu, iOS, Apple, iPhone" #关键词
+url: "https://hearnseu.github.io"          # 这个就是填写你的博客地址
+baseurl: ""      # 这个我们不用填写
