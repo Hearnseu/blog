@@ -55,7 +55,7 @@ tags:
 ```
 
 注意：通知注册需放在`[[NSRunLoop currentRunLoop] run];
-`前，否则无效。
+`前，否则无效。这是为什么呢？因为执行`[[NSRunLoop currentRunLoop] run];`后就进入了死循环，直至线程退出，才能运行到之后的代码。
 
 同样，子线程注册的通知，无论什么线程发送通知，该子线程都能收到。
 
